@@ -1,0 +1,21 @@
+# MCPB bundle ignore
+.git/
+.github/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.aider*
+node_modules/
+storage/
+tmp/
+tests/
+.actor/
+Dockerfile
+*.mcpb
+manifest_spec.md
+scripts/
+src/main.py
+src/rest.py
+requirements.txt

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.atushi1841/japan-food-delivery-mcp",
+  "description": "Japan food delivery data (Uber Eats JP) via Apify actor for AI agents.",
+  "repository": {
+    "url": "https://github.com/atushi1841/japan-food-delivery-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "title": "Japan Food Delivery MCP",
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/atushi1841/japan-food-delivery-mcp/releases/download/v0.1.0/server.mcpb",
+      "version": "0.1.0",
+      "fileSha256": "69d18ef104c9d31d988baf118ac6c9961766476df45acc862db816695aff903b",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

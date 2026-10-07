@@ -1,0 +1,49 @@
+{
+  "manifest_version": "0.4",
+  "name": "japan-food-delivery-mcp",
+  "display_name": "Japan Food Delivery MCP",
+  "version": "0.1.0",
+  "description": "Japan food delivery data via Uber Eats JP for AI agents. Search restaurants and get menus.",
+  "long_description": "Japan Food Delivery MCP です。\\n\\nAIエージェント（Claude, Cursor, ChatGPT等）から日本国内のUber Eatsレストラン検索・メニューデータを取得できます。\\n\\n## 提供ツール\\n\\n| ツール | 内容 |\\n|---|---|\\n| `search_restaurants(city, cuisine, max_results)` | Uber Eats Japanでレストランを検索 |\\n| `get_restaurant_menu(restaurant_url, max_items)` | 特定レストランのフルメニューを取得 |\\n| `get_japan_food_info()` | サーバーメタデータを取得 |\\n\\n## 動作要件\\n\\n- APIFY_TOKEN環境変数が必要\\n- 依存解決に [uv](https://docs.astral.sh/uv/) を使用\\n- 関連 Apify Actor: sourabhbgp/ubereats-scraper (country=JP対応)",
+  "author": {
+    "name": "atushi1841",
+    "url": "https://github.com/atushi1841"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atushi1841/japan-food-delivery-mcp"
+  },
+  "homepage": "https://github.com/atushi1841/japan-food-delivery-mcp",
+  "server": {
+    "type": "python",
+    "entry_point": "src/stdio_main.py",
+    "mcp_config": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "${__dirname}",
+        "src/stdio_main.py"
+      ]
+    }
+  },
+  "compatibility": {
+    "platforms": [
+      "darwin",
+      "linux",
+      "win32"
+    ],
+    "runtimes": {
+      "python": ">=3.10"
+    }
+  },
+  "keywords": [
+    "japan",
+    "food",
+    "delivery",
+    "uber-eats",
+    "restaurant",
+    "menu",
+    "scraping"
+  ]
+}
