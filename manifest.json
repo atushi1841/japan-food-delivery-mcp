@@ -45,5 +45,60 @@
     "restaurant",
     "menu",
     "scraping"
+  ],
+  "tools": [
+    {
+      "name": "search_restaurants",
+      "description": "Search restaurants on Uber Eats Japan.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": "string",
+            "description": "City name (e.g. Tokyo, Osaka)"
+          },
+          "cuisine": {
+            "type": "string",
+            "description": "Cuisine keyword"
+          },
+          "max_results": {
+            "type": "integer",
+            "description": "Max results (default 20)"
+          }
+        },
+        "required": [
+          "city"
+        ]
+      }
+    },
+    {
+      "name": "get_restaurant_menu",
+      "description": "Get full menu for a specific restaurant.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "restaurant_url": {
+            "type": "string",
+            "description": "Restaurant URL"
+          },
+          "max_items": {
+            "type": "integer",
+            "description": "Max menu items (default 100)"
+          }
+        },
+        "required": [
+          "restaurant_url"
+        ]
+      }
+    },
+    {
+      "name": "get_japan_food_info",
+      "description": "Get server metadata and information.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
   ]
 }
