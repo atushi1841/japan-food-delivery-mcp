@@ -1,0 +1,12 @@
+{
+  "name": "io.github.atushi1841/japan-food-delivery-mcp",
+  "description": "Japan Food Delivery MCP - Uber Eats JP data for AI agents",
+  "url": "https://github.com/atushi1841/japan-food-delivery-mcp",
+  "author": "atushi1841",
+  "version": "0.1.0",
+  "modelcontextprotocol": {
+    "schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "transport": "stdio",
+    "server_json": "https://raw.githubusercontent.com/atushi1841/japan-food-delivery-mcp/main/server.json"
+  }
+}
