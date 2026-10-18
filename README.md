@@ -19,3 +19,9 @@ Find it via search: [japan-food-delivery-mcp](https://registry.modelcontextproto
 - [japan-kakaku-price-search](https://apify.com/store/actors/japan-kakaku-price-search) — Apify Store actor (total runs: 153)
 - [japan-used-instrument-market-scraper](https://apify.com/store/actors/japan-used-instrument-market-scraper) — Apify Store actor (total runs: 152)
 - [japan-anime-figure-price-data](https://apify.com/store/actors/japan-anime-figure-price-data) — Apify Store actor (total runs: 132)
+
+---
+## Data & Store
+
+- **Apify Store:** https://apify.com/fruitful_quintessence
+- **Gumroad datasets:** https://atushi5.gumroad.com/l/kutuxe
